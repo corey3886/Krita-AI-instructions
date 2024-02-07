@@ -6,14 +6,14 @@ _Work in progress!_
 
 ## Installation and Setup
 
-* [Stable Diffusion Versions](sd-versions) - What are SD1.5 and SDXL?
-* [Common Issues](common-issues) - FAQ with answers to common problems
-* [ComfyUI Setup](comfyui-requirements) - for those who wish to use their own ComfyUI installation
-* [Cloud GPU](cloud-gpu) - step-by-step guide to deploy the server on a GPU Cloud host
+* [Stable Diffusion Versions](Stable-Diffusion-Versions) - What are SD1.5 and SDXL?
+* [Common Issues](Common-Issues) - FAQ with answers to common problems
+* [ComfyUI Setup](ComfyUI-Setup) - for those who wish to use their own ComfyUI installation
+* [Cloud GPU](Cloud-GPU) - step-by-step guide to deploy the server on a GPU Cloud host
 
 ## User Guide
 
-* [Selection Inpainting](inpainting)
+* [Selection Inpainting](Inpainting)
 
 ## Project and Contributing
 
