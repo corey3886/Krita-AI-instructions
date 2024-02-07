@@ -13,7 +13,7 @@ Install custom nodes according to the instructions of the respective projects, o
   * [External tooling nodes](https://github.com/Acly/comfyui-tooling-nodes)
 
 ## Required models
-Download models to the paths indicated below. If you are using `extra_model_paths.yml`, those will also work. Shared models are always required, and at least one of SD1.5 and SDXL is needed.
+Download models to the paths indicated below. If you are using `extra_model_paths.yml`, those will also work. Shared models are always required, and you can choose SD1.5 or SDXL or install both.
 
 This can be done manually or via script ([see below](#script)).
 
