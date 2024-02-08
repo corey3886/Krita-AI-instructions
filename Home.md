@@ -13,7 +13,7 @@ _Work in progress!_
 
 ## User Guide
 
-* [Selection Inpainting](Inpainting)
+* [Selection Inpainting](Inpainting) - Guide on how to fill selections and expand the canvas
 
 ## Project and Contributing
 
