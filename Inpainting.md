@@ -100,7 +100,7 @@ By default the context is selected automatically. It can be influenced by changi
 Note that there are also internal constraints and tweaks to select a suitable region. Custom Generation offers some additional options:
 * **Selection Bounds:** use only the selection area. This makes sense when _Seamless_ is disabled, but won't allow it to work properly if it's on.
 * **Entire Image:** use the entire image as context. Best coherency, but slow and image quality suffers at high resolutions.
-* **<Custom Layer>:** use the area indicated by a Selection Mask or Transparency Mask layer. Full control!
+* **Custom Layer:** use the area indicated by a Selection Mask or Transparency Mask layer. Full control!
 
 ### Working with Selection Masks
 
