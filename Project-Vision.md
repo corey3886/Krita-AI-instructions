@@ -8,11 +8,9 @@ and allow flexible customization where required.
 Many early AI apps and services focus on the ability generate entire images from text. Language is something
 all humans learn and have an intuitive proficiency for, which makes it an incredibly accessible tool. It
 is however not necessarily a very precise or efficient way to create visual content. It excels at quickly
-generating something out of a general idea, but fails at realizing more concrete imagination. A text
-description always leaves large room for interpretation, and results are most of all very random.
-More verbose and detailed language has its limits. For one, current AI model's understanding of complex
-scenarios can be poor. But even as this improves over time, describing what you envision in great detail
-can be difficult and tedious at best, and plain impossible in many cases.
+generating something out of a general idea, but fails at realizing more concrete imagination. While current AI
+model's trouble with complex scenarios will likely improve over time, describing what you envision in great detail
+can be difficult and tedious, and in many cases plain impossible.
 
 _"A picture is worth a thousand words"_ -- Sketching, painting, 3D modeling
 are all valuable methods to conceptualize and flesh out what we envision.
