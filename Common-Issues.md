@@ -75,7 +75,7 @@ For example if you want to add `--force-fp16` and `--dont-upcast-attention` argu
 
 ### Error during server startup: Could not bind on address (only one usage of each socket address is normally permitted)
 
-If you get this error it usually means another process is already running and using the same port.
+If you get this error it usually means another process is already running and using the same port. This could be:
 * Another instance of ComfyUI you are running manually
 * A server process previously started by the Krita plugin that wasn't shut down correctly
 * Some other process on your system which uses the same port (8188)
