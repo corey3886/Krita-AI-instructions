@@ -73,6 +73,23 @@ For example if you want to add `--force-fp16` and `--dont-upcast-attention` argu
   "server_arguments": "--dont-upcast-attention --force-fp16"
 ```
 
+### Error during server startup: Could not bind on address (only one usage of each socket address is normally permitted)
+
+If you get this error it usually means another process is already running and using the same port.
+* Another instance of ComfyUI you are running manually
+* A server process previously started by the Krita plugin that wasn't shut down correctly
+* Some other process on your system which uses the same port (8188)
+* An issues with system or firewall settings (unlikely)
+
+The easiest solution is to shutdown the other process which is using the same port. You can do this manually, or just log off / reboot.
+
+If you don't want to shutdown the other process or can't find it, you can also change the port the server runs on. See [above](#how-do-i-pass-additional-arguments-to-comfyui) on how
+to change server arguments. Set them to eg.:
+```
+  "server_arguments": "--port 25608"
+```
+You can choose any port number you like.
+
 
 ## Operating System and Hardware
 
