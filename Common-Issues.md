@@ -103,6 +103,13 @@ If you consider generation too slow, here are a few things to check:
   * With Krita and the plugin running, go to http://127.0.0.1:8188 in your browser and "Queue Prompt".
   * If performance is bad there, the problem is not related to the Krita plugin.
 
+### macOS: xcrun: error: invalid active developer path (missing xcrun)
+
+Install Xcode command line tools, eg. by running the following command in a terminal:
+```
+xcode-select --install
+```
+
 ### macOS: No images received from remote ComfyUI server
 
 If you are connecting to a remote server like a different machine you own, or a cloud service like runpod.ai, and run into the situation where
