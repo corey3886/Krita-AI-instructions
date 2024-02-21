@@ -2,8 +2,6 @@
 
 This is the official documentation on how to install, use and improve the image diffusion plugin.
 
-_Work in progress!_
-
 ## Installation and Setup
 
 * [Stable Diffusion Versions](Stable-Diffusion-Versions) - What are SD1.5 and SDXL?
@@ -17,4 +15,10 @@ _Work in progress!_
 
 ## Project and Contributing
 
-_TODO_
+What can you do to help improve this project? It's not just about code:
+* Help out others and propose new ideas in [issues](https://github.com/Acly/krita-ai-diffusion/issues) and [discussions](https://github.com/Acly/krita-ai-diffusion/discussions)
+* Experiment and test new techniques and models and post your results. A systematic evaluation helps to figure out if it's worth to integrate,
+  what the best way is, and if it should replace existing functionality.
+* Documentation, guides and tutorials are appreciated. Advice and workflows on how to achieve best results can also be added to this Wiki.
+* [Contributing Guidelines](https://github.com/Acly/krita-ai-diffusion/blob/main/CONTRIBUTING.md) - For working on the codebase
+* [Project Vision](Project-Vision) - Explains the focus of this project and where it is headed. This is just a direction though, not a constraint!
