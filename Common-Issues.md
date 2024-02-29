@@ -9,7 +9,7 @@ This document collects some common issues and potential solutions.
 You can [create a new Issue here](https://github.com/Acly/krita-ai-diffusion/issues).
 
 ### Log files
-If you encounter an issue, it can help to check the log files. They are in the `.logs` folder inside the plugin installation folder. You can also locate the folder with the "View log files" link in the plugin's connection settings. Please attach logs when you open an Issue on GitHub!
+If you encounter an issue, it can help to check the log files. You can locate the folder with the "View log files" link in the plugin's connection settings. Please attach logs when you open an Issue on GitHub!
 
 ![common-issues-log-files](https://github.com/Acly/krita-ai-diffusion/assets/6485914/47d86a7b-6c54-4e04-8e24-c101e40862ac)
 
@@ -29,20 +29,37 @@ To upgrade a previous version of the plugin, download and extract the same way a
 
 Krita has to be restarted for the update to take effect. If your server installation is managed by the plugin, it may prompt you to do an upgrade. This will automatically reinstall the server software, but without downloading models again.
 
+### Where are plugin and user files located?
+
+The plugin stores data in up to three locations:
+1. `<appdata>/krita/pykrita/ai_diffusion` - This is the folder where you installed.
+2. `<appdata>/krita/ai_diffusion` - This folder contains user data (settings, styles, logs...)
+3. The server location if you installed it via the plugin. By default it is in the same place as user data (2.) unless you changed it manually.
+
+The full path depends on OS and how Krita was installed. You can find it via the ["View log files" link](#log-files) in the plugin's connection settings. Typical paths are:
+* Windows: `C:\User\<your-name>\AppData\Roaming\krita/...`
+* Linux: `~/.local/share/krita/...`
+* MacOS: `~/Library/Application Support/krita/...`
+
 ### How do I relocate my server installation?
 
-By default the installer will place the ComfyUI server in `.server` inside your plugin folder. On some platforms this folder may be invisible (enable show invisible files to see it). The path can be chose freely in the UI and point to any other folder. If you already have an installation it's also possible to simply move the folder to a different location.
+By default the installer will place the ComfyUI server in `server` inside the user data folder. The path can be chose freely in the UI and point to any other folder. If you already have an installation it's also possible to simply move the folder to a different location.
 
 ### How do I uninstall the Plugin?
 
-Simply delete the plugin folder `ai_diffusion` and the `ai_diffusion.desktop` file.
+You can remove the plugin simply by deleting the folder where you installed it.
 
-By default no files or data is created outside this folder, unless you specifally choose
-a different server path. In that case you can simply delete that folder too.
+If you installed the server via the plugin, find it at the path you chose for installation. Delete that folder if you have no further use for it.
+
+See [plugin file locations](#where-are-plugin-and-user-files-located) for default locations.
 
 ### How do I perform a clean re-install of the Plugin?
 
-To delete _everything_, follow [uninstall](#how-do-i-uninstall-the-plugin) above.
+**Version 1.15.0 and later**
+
+Go to Krita's python plugin folder (`.../krita/pykrita`, see installation instructions for how to find it). Delete the existing `ai_diffusion` folder and extract the new one in its place.
+
+**Prior to version 1.15.0**
 
 If you want to keep settings, styles, or the server installation, delete everything inside the `ai_diffusion` folder **except**:
 - `.logs`
