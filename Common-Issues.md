@@ -43,7 +43,7 @@ The full path depends on OS and how Krita was installed. You can find it via the
 
 ### How do I relocate my server installation?
 
-By default the installer will place the ComfyUI server in `server` inside the user data folder. The path can be chose freely in the UI and point to any other folder. If you already have an installation it's also possible to simply move the folder to a different location.
+By default the installer will place the ComfyUI server in `<appdata>/krita/ai_diffusion/server`. The path can be chosen freely in the UI and point to any other folder! If you already have an installation it's also possible to simply move the folder to a different location, and then change the path in the UI afterwards.
 
 ### How do I uninstall the Plugin?
 
