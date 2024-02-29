@@ -37,7 +37,7 @@ The plugin stores data in up to three locations:
 3. The server location if you installed it via the plugin. By default it is in the same place as user data (2.) unless you changed it manually.
 
 The full path depends on OS and how Krita was installed. You can find it via the ["View log files" link](#log-files) in the plugin's connection settings. Typical paths are:
-* Windows: `C:\User\<your-name>\AppData\Roaming\krita/...`
+* Windows: `C:\User\<your-name>\AppData\Roaming\krita\...`
 * Linux: `~/.local/share/krita/...`
 * MacOS: `~/Library/Application Support/krita/...`
 
