@@ -67,7 +67,7 @@ _Note: The script downloads models only. It does not install or modify ComfyUI o
 
 ## Troubleshooting
 If you're getting errors about missing resources, or workload not being installed, it's probably because one of the models wasn't found.
-You can find the `client.log` file in the `.logs` folder where you installed the plugin. Check the log for warnings. Here you will also
+You can find the `client.log` file by clicking the "View Log files" link in the Connection settings. Check the log for warnings. Here you will also
 find which models were found in your installation, and the patterns the plugin looks for.
 
 Model paths must contain one of the search patterns entirely to match. The model path is allowed to be longer though: you may place models
