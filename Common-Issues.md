@@ -81,7 +81,7 @@ If you used the plugin to install and set up ComfyUI, but already have Stable Di
 
 Some issues with certain hardware can be solved by passing additional arguments to the ComfyUI server. If you used the plugin installer,
 it will start/stop the server for you. To add arguments: 
-1. Locate `settings.json` in the plugin install folder (`.../pykrita/ai_diffusion`)
+1. Locate `settings.json` in the [user data folder](#where-are-plugin-and-user-files-located) (`<appdata>/krita/ai_diffusion`)
 1. Open it with a text editor (notepad will do)
 1. Find the line with `"server_arguments"` and edit the value
 
