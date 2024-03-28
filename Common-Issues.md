@@ -25,9 +25,16 @@ Krita will show an error message when you hover over the grayed out entry in the
 
 ### How do I update to a new version of the Plugin?
 
-To upgrade a previous version of the plugin, download and extract the same way as when installing initially. Overwrite and replace existing files when prompted.
+To upgrade a previous version of the plugin, simply follow the instructions for initial installation. The old version will be replaced.
 
 Krita has to be restarted for the update to take effect. If your server installation is managed by the plugin, it may prompt you to do an upgrade. This will automatically reinstall the server software, but without downloading models again.
+
+> [!WARNING]
+>
+> `Import Python Plugin from File...` deletes the previous version and replaces it! If you originally installed a version before 1.15.0, your server installation and settings may be located in the plugin folder. In that case either
+> * Extract the plugin manually into the installation folder (`.../pykrita/ai_diffusion`). Overwrite existing files when prompted.
+> * Or relocate your server installation first (you can move the folder and update the path in the UI)
+
 
 ### Where are plugin and user files located?
 
@@ -57,7 +64,9 @@ See [plugin file locations](#where-are-plugin-and-user-files-located) for defaul
 
 **Version 1.15.0 and later**
 
-Go to Krita's python plugin folder (`.../krita/pykrita`, see installation instructions for how to find it). Delete the existing `ai_diffusion` folder and extract the new one in its place.
+Follow the installation instructions, it will delete and replace the previous version.
+
+If you want to delete user files (settings, styles, etc.) see [plugin file locations](#where-are-plugin-and-user-files-located).
 
 **Prior to version 1.15.0**
 
