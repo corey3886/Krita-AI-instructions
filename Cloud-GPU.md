@@ -76,6 +76,51 @@ The URL will be the one which maps to port 3001. Copy it into Krita and connect.
 ![vast-4](https://github.com/Acly/krita-ai-diffusion/assets/6485914/389c3c23-f2ac-4ed8-804f-d98e79ad6401)
 
 
+## sailflow.ai
+
+[sailflow.ai](https://www.sailflowai.com) is a GPU cloud platform, which allows you to start krita-ai-diffusion faster. You don't have to install ComfyUI in the cloud GPU server in advance, you just follow the instruction below, create a job, connect to the web address and then done.
+
+### Step 1: Sign up
+
+Go to [sailflow.ai](https://www.sailflowai.com) and create an account, try referral code: R5QXRVE6.
+
+<img width="1440" alt="截圖 2024-03-29 上午11 26 31" src="https://github.com/x1y2z3456/krita-ai-diffusion/assets/33689381/034c24b4-ae46-403c-a995-6f749df1253e">
+
+### Step 2: Select the template
+
+You can select Krita template immediately at Home page. Feel free to start, being comfortable to top-up later or try subscription plans. Click _Krita_.
+
+<img width="1440" alt="截圖 2024-03-29 上午10 53 32" src="https://github.com/x1y2z3456/krita-ai-diffusion/assets/33689381/6ab6176c-80ff-4e65-a6b2-57d925b14c32">
+
+You are free to choose one of the other options of course.
+
+### Step 3: Deploy!
+
+You will get a cost summary. Click _Submit_.
+
+<img width="1440" alt="截圖 2024-03-29 上午11 39 19" src="https://github.com/x1y2z3456/krita-ai-diffusion/assets/33689381/3e26729f-6f15-439c-806f-4cb8ae5e3a04">
+
+Now you have to wait until the server is up. This will be available soon (~1 minutes) depending on the download speed of your pod. Eventually it should look like this:
+
+### Step 4: Connect
+
+Once your pod is running, you may notice that _SD APP_ button has been enabled and you can connect to ComfyUI through this button.
+
+<img width="1440" alt="截圖 2024-03-29 下午12 02 53" src="https://github.com/x1y2z3456/krita-ai-diffusion/assets/33689381/74194475-4411-4549-8c36-07f87ecf0953">
+
+This should open ComfyUI running in your browser. Now simply copy the URL into the Krita plugin and connect!
+
+<img width="1440" alt="截圖 2024-03-29 下午12 42 24" src="https://github.com/x1y2z3456/krita-ai-diffusion/assets/33689381/8aee6193-25d4-467b-8cdf-1588b3e97612">
+
+![sailflowai-6](https://github.com/x1y2z3456/krita-ai-diffusion/assets/33689381/a26c7699-fb17-4245-8b8b-3fa95fd2116b)
+
+### Afterwards
+
+After you're done using the pod, remember to stop it. You can keep it inactive to potentially reuse it later, but it's not free. To avoid charges, make sure to discard/delete the pod.
+
+
+
+
 ## Custom checkpoints and LoRA
 
 If you want to use custom models you will have to download them to the pod. There is no UI for this yet, but it can be done via SSH terminal.
