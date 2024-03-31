@@ -1,6 +1,6 @@
 # Guide: Rent a Cloud GPU
 
-This is a step-by-step guide on how to run the Stable Diffusion server remotely on cloud services like [runpod.io](https://www.runpod.io) or [vast.ai](https://vast.ai). This allows you to use the plugin without installing a server on your local machine, and is a great option if you don't own a powerful GPU. There is no subscription, you typically pay between 0.25$ to 0.50$ per hour.
+This is a step-by-step guide on how to run the Stable Diffusion server remotely on cloud services like [runpod.io](https://www.runpod.io), [vast.ai](https://vast.ai) or [sailflow.ai](https://www.sailflowai.com). This allows you to use the plugin without installing a server on your local machine, and is a great option if you don't own a powerful GPU. There is no subscription, you typically pay between 0.25$ to 0.50$ per hour.
 
 ## runpod.io
 
