@@ -40,9 +40,9 @@ This can be done manually or via script ([see below](#script)).
 
 ## Checkpoints
 The following checkpoints are used by the default styles:
-* [Realistic Vision](https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=pruned&fp=fp16)
-* [DreamShaper](https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16)
-* [JuggernautXL](https://civitai.com/api/download/models/198530)
+* [Realistic Vision](https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticVisionV51_v51VAE.safetensors)
+* [DreamShaper](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)
+* [JuggernautXL](https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors)
 
 At least one checkpoint is required, but it doesn't have to be one of the above.
 
