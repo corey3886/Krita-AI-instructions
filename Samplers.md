@@ -14,9 +14,13 @@ The choice of Sampler and Scheduler is mainly important for two things:
 In the Plugin, you can select a Sampler Preset from the Style settings.
 For most intents and purposes the defaults should be fine, and there is no need to tweak them.
 
+![samplers-1](https://github.com/Acly/krita-ai-diffusion/assets/6485914/fee61aef-c842-4643-b0ed-edf25b26566f)
+
 If you are downloading custom checkpoints (from sites like [civitai.com](https://civitai.com/))
-it's important to take the type of checkpoint into account. Often the author also has a
-recommendation on which sampler to use.
+it's important to take the type of checkpoint into account.
+
+> [!NOTE]
+> Often the checkpoint author also has a recommendation on which sampler to use.
 
 ### Regular Checkpoints
 
@@ -26,7 +30,7 @@ and workflows.
 Recommended presets:
 * **Default** - *DPM++ 2M Karras*: converges quickly and is stable regarding step counts.
 * **Creative** - *DPM++ 2M SDE Karras*: introduces some noise each step, less stable but more freedom
-* **Alternative** - *Euler Ancestral*: similar to the above, often recommended for non-realistic
+* **Alternative** - *Euler Ancestral*: similar to the Creative, often recommended for non-realistic
 * **Fast** - *UniPC BH2*: faster because it requires fewer steps, with some quality loss
 
 ### Turbo & Lightning Checkpoints
@@ -46,8 +50,8 @@ achieve almost real-time speeds on powerful hardware. It comes at the cost of qu
 The Plugin allows to configure separate presets for use in "classic" generation and Live mode.
 
 Recommended presets:
-* **Realtime** - *LCM*: the default for live painting, it works well even at low strength.
-* **Realtime Lightning** - *Euler SGM Uniform*: alternative with similar speed up, can be better for 50% strength or higher
+* **Realtime** - *LCM SGM Uniform*: the default for live painting, it works well even at low strength.
+* **Realtime Lightning** - *Euler SGM Uniform*: SDXL only, can be better for 50% strength or higher
 
 
 ## Steps and CFG
@@ -56,6 +60,8 @@ All presets come with a default suggestion for number of steps and CFG (Classifi
 You can tweak them in the Style settings. Each sampler and checkpoint type have different ranges which
 they are comfortable with, it is best to start form the default values and experiment if necessary.
 
+![samplers-2](https://github.com/Acly/krita-ai-diffusion/assets/6485914/7b92bfbd-ce72-406d-90f7-0ad1aea98e7f)
+
 * **More steps** will take longer, but can improve quality. It has diminishing returns however, and may even degrade quality at high numbers.
 * **A higher CFG** may improve composition and prompt adherance, but will eventually "overcook" the image. It usually also requires more steps,
 which is why samplers with low step counts require a low CFG scale.
@@ -63,7 +69,7 @@ which is why samplers with low step counts require a low CFG scale.
 
 ## Custom Presets
 
-There many more options which are not reflected by existing presets.
+There are many more options which are not reflected by existing presets.
 Choice of sampler is mostly a technical consideration. There are a few that work well, and it's generally not
 very productive to tweak them. Different samplers will yield different results, but whether one is better than the
 other may depend on a lot of factors, and is often a subjective choice.
@@ -77,6 +83,8 @@ The easiest way to start writing custom presets is to click the link in the Styl
 This will create a `samplers.json` file in the `<appdata>/krita/ai_diffusion/presets/` folder and try to open it.
 If this doesn't work you
 can use the "Open settings folder" link, it should be there in the `presets` folder. Open it in a text editor, Notepad will work.
+
+![samplers-3](https://github.com/Acly/krita-ai-diffusion/assets/6485914/636616eb-ce3c-4de7-9d16-97440644194e)
 
 ### Example
 
