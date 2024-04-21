@@ -12,6 +12,7 @@ This is the official documentation on how to install, use and improve the image 
 ## User Guide
 
 * [Selection Inpainting](Inpainting) - Guide on how to fill selections and expand the canvas
+* [Samplers](Samplers) - Explains sampler presets and how to create your own
 
 ## Project and Contributing
 
