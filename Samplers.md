@@ -40,7 +40,8 @@ and therefore run faster. They retain excellent quality, but usually have less v
 well for fill and refinement.
 
 Recommended presets:
-* **Turbo/Lightning Checkpoint** - *DPM++ SDE Karras*: most of these checkpoints require this sampler.
+* **Turbo/Lightning Merge** - *DPM++ SDE Karras*: most of these checkpoints require this sampler.
+* **Lightning Merge** - *Euler A Uniform*: a faster option for Lightning checkpoints.
 
 ### Performance and Live mode
 
