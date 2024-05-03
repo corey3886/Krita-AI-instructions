@@ -52,7 +52,8 @@ The Plugin allows to configure separate presets for use in "classic" generation 
 
 Recommended presets:
 * **Realtime** - *LCM SGM Uniform*: the default for live painting, it works well even at low strength.
-* **Realtime Lightning** - *Euler SGM Uniform*: SDXL only, can be better for 50% strength or higher
+* **Realtime Lightning** - *Euler SGM Uniform*: SDXL only, can be better for 50% strength or higher.<br>
+    Requires [sdxl_lightning_8step_lora.safetensors](https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_8step_lora.safetensors) to be downloaded and placed in the LoRA folder.
 
 
 ## Steps and CFG
