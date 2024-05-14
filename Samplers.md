@@ -110,7 +110,7 @@ Feel free to modify it and add more.
 > [!IMPORTANT]
 > You have to restart Krita for changes in the preset file to take effect!
 
-## Steps, Strength and Minimum Steps
+### Steps, Strength and Minimum Steps
 
 The `steps` configued in a preset are used as initial value when you select that preset in the UI.
 The UI allows to override that value. This value is the number of _total steps_ which run when you generate an image from scratch (100% strength).
