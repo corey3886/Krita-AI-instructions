@@ -99,6 +99,7 @@ User presets have the same structure. To get started, the file should already co
         "sampler": "dpmpp_3m_sde",
         "scheduler": "exponential",
         "steps": 20,
+        "minimum_steps": 4,
         "cfg": 7.0
     }
 }
@@ -108,6 +109,18 @@ Feel free to modify it and add more.
 
 > [!IMPORTANT]
 > You have to restart Krita for changes in the preset file to take effect!
+
+## Steps, Strength and Minimum Steps
+
+The `steps` configued in a preset are used as initial value when you select that preset in the UI.
+The UI allows to override that value. This value is the number of _total steps_ which run when you generate an image from scratch (100% strength).
+
+At lower strength values, the image is already partially denoised. At 50% strength, only half the steps need to run.
+Each step removes the same amount of noise from the image as before! But because there is less noise, fewer steps are required. [See here](https://invoke-ai.github.io/InvokeAI/features/IMG2IMG/) for a more detailed visual example.
+
+Setting `minimum_steps` changes the noise schedule for low strength values. If the number of steps would drop below the minimum,
+the total steps are automatically rescaled such that the minimum number of steps will run. This can be beneficial for low strength values
+and provide the required flexibility to make subtle changes. But keep in mind that more steps also make the process take longer.
 
 ### Reference
 
