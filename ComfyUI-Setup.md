@@ -49,9 +49,9 @@ At least one checkpoint is required, but it doesn't have to be one of the above.
 ## <a name="script"></a> Download Script
 The models above mostly list strict requirements, there are a lot of additional models (like ControlNet)
 which activate optional features in the plugin. If you have them already - great. Otherwise you can
-use the `download_models.py` script to fetch all required and optional models.
+use the [download_models.py](https://github.com/Acly/krita-ai-diffusion/blob/main/scripts/download_models.py) script to fetch all required and optional models.
 
-Find the script in the plugin folder (called `ai_diffusion`). Open a command prompt and run:
+After installing the plugin you can find the script in the plugin folder (called `ai_diffusion`, see [Paths](https://github.com/Acly/krita-ai-diffusion/wiki/Common-Issues#where-are-plugin-and-user-files-located)). Open a command prompt and run:
 ```
 python -m pip install aiohttp tqdm
 python download_models.py /path/to/your/comfyui
