@@ -8,7 +8,6 @@ Install custom nodes according to the instructions of the respective projects, o
 
   * [ControlNet preprocessors](https://github.com/Fannovel16/comfyui_controlnet_aux)
   * [IP-Adapter](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
-  * [Ultimate SD Upscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
   * [Inpaint nodes](https://github.com/Acly/comfyui-inpaint-nodes)
   * [External tooling nodes](https://github.com/Acly/comfyui-tooling-nodes)
 
