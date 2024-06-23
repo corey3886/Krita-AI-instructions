@@ -33,7 +33,7 @@ This can be done manually or via script ([see below](#script)).
 
 ### SD XL
   * [IP-Adapter (SDXL)](https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors) to `models/ipadapter`
-  * [Hyper-SD-LoRA (SDXL)](https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors` to `models/loras`
+  * [Hyper-SD-LoRA (SDXL)](https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors) to `models/loras`
   * [Fooocus Inpaint (Head)](https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/fooocus_inpaint_head.pth) to `models/inpaint`
   * [Fooocus Inpaint (Patch)](https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch) to `models/inpaint`
 
@@ -41,7 +41,8 @@ This can be done manually or via script ([see below](#script)).
 The following checkpoints are used by the default styles:
 * [Realistic Vision](https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticVisionV51_v51VAE.safetensors)
 * [DreamShaper](https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors)
-* [JuggernautXL](https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors)
+* [Juggernaut XL](https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors)
+* [ZavyChroma XL](https://huggingface.co/misri/zavychromaxl_v80/resolve/main/zavychromaxl_v80.safetensors)
 
 At least one checkpoint is required, but it doesn't have to be one of the above.
 
