@@ -29,11 +29,11 @@ This can be done manually or via script ([see below](#script)).
   * [ControlNet inpaint](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors) to `models/controlnet`
   * [ControlNet tile](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors) to `models/controlnet`
   * [IP-Adapter (SD1.5)](https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors) to `models/ipadapter`
-  * [LCM-LoRA (SD1.5)](https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors?download=true) to `models/loras/lcm-lora-sdv1-5.safetensors` _rename!_
+  * [Hyper-SD-LoRA (SD1.5)](https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors) to `models/loras/`
 
 ### SD XL
   * [IP-Adapter (SDXL)](https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors) to `models/ipadapter`
-  * [LCM-LoRA (SDXL)](https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors?download=true) to `models/loras/lcm-lora-sdxl.safetensors` _rename!_
+  * [Hyper-SD-LoRA (SDXL)](https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-8steps-CFG-lora.safetensors` to `models/loras`
   * [Fooocus Inpaint (Head)](https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/fooocus_inpaint_head.pth) to `models/inpaint`
   * [Fooocus Inpaint (Patch)](https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch) to `models/inpaint`
 
