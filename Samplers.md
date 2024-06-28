@@ -157,6 +157,7 @@ Possible values for `"scheduler"`:
 * simple
 
 Possible values for `"lora"` (optional):
+* hyper
 * lcm
 * lightning
 * ... any lora filename, eg. my_lora_file.safetensors
